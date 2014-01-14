@@ -65,7 +65,7 @@ public final class HelpActivity extends Activity {
   @Override
   protected void onCreate(Bundle icicle) {
     super.onCreate(icicle);
-    setContentView(R.layout.help);
+    setContentView(R.layout.help_ocr);
 
     webView = (WebView)findViewById(R.id.help_contents);
     webView.setWebViewClient(new HelpClient(this));

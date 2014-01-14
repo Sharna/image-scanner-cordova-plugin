@@ -103,6 +103,8 @@
         <source-file src="src/android/LibraryProject/res/drawable-mdpi/shutter.png" target-dir="res/drawable-mdpi"/>
         <source-file src="src/android/LibraryProject/res/drawable-mdpi/shutter_pressed.png" target-dir="res/drawable-mdpi"/>
         <source-file src="src/android/LibraryProject/res/layout/capture_image.xml" target-dir="res/layout"/>
+        <source-file src="src/android/LibraryProject/res/layout/help_ocr.xml" target-dir="res/layout"/>
+        
 
         <!-- plugman cannot merge - prepare manual merge -->
         <config-file target="res/values/arrays.xml" parent="/resources">
