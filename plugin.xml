@@ -19,39 +19,39 @@
     <platform name="android">
 
         <!-- OCR -->
-        <source-file src="src/edu/sfsu/cs/orange/ocr/BeepManager.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/CaptureActivity.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/CaptureActivityHandler.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/DecodeHandler.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/DecodeThread.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/FinishListener.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/HelpActivity.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/LuminanceSource.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/OcrCharacterHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/OcrInitAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/OcrPlugin.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/OcrRecognizeAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/OcrResult.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/OcrResultFailure.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/OcrResultText.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/PlanarYUVLuminanceSource.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/PreferencesActivity.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/ViewfinderView.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/BeepManager.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/CaptureActivity.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/CaptureActivityHandler.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/DecodeHandler.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/DecodeThread.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/FinishListener.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/HelpActivity.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/LuminanceSource.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/OcrCharacterHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/OcrInitAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/OcrPlugin.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/OcrRecognizeAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/OcrResult.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/OcrResultFailure.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/OcrResultText.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/PlanarYUVLuminanceSource.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/PreferencesActivity.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/ViewfinderView.java" target-dir="src/edu/sfsu/cs/orange/ocr" />
 
         <!-- CAMERA -->
-        <source-file src="src/edu/sfsu/cs/orange/ocr/camera/AutoFocusManager.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/camera/CameraConfigurationManager.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/camera/CameraManager.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/camera/PreviewCallback.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/camera/ShutterButton.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/camera/AutoFocusManager.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/camera/CameraConfigurationManager.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/camera/CameraManager.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/camera/PreviewCallback.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/camera/ShutterButton.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
 
         <!-- LANGUAGE -->
-        <source-file src="src/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/language/TranslateAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/language/Translator.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/language/TranslatorBing.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
-        <source-file src="src/edu/sfsu/cs/orange/ocr/language/TranslatorGoogle.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslateAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/Translator.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslatorBing.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslatorGoogle.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="OcrPlugin">
