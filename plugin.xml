@@ -557,7 +557,7 @@
               <item type="id" name="restart_preview"/>
         </config-file>
 
-        <config-file target="res/xml/preferences.xml" parent="/resources">
+        <config-file target="res/xml/preferences.xml" parent="/*">
         <!-- GENERAL SETTINGS -->
             <PreferenceCategory android:title="General settings">
 
