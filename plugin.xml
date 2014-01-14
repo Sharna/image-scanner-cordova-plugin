@@ -49,7 +49,6 @@
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslateAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/Translator.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
-        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslatorBing.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslatorGoogle.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
 
