@@ -45,13 +45,13 @@
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/camera/PreviewCallback.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/camera/ShutterButton.java" target-dir="src/edu/sfsu/cs/orange/ocr/camera" />
 
-        <!-- LANGUAGE -->
+        <!-- LANGUAGE
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslateAsyncTask.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/Translator.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/LanguageCodeHelper.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
         <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslatorBing.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
-        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslatorGoogle.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" />
+        <source-file src="src/android/edu/sfsu/cs/orange/ocr/language/TranslatorGoogle.java" target-dir="src/edu/sfsu/cs/orange/ocr/language" /> -->
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="OcrPlugin">
