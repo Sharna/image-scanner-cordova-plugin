@@ -71,6 +71,16 @@
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
             </activity>
+            <activity
+                android:name="edu.sfsu.cs.orange.ocr.HelpActivity"
+                android:screenOrientation="user" >
+                <intent-filter>
+                    <action android:name="edu.sfsu.cs.orange.ocr.HELP" />
+
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </activity>
+            <activity android:name="edu.sfsu.cs.orange.ocr.PreferencesActivity" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
