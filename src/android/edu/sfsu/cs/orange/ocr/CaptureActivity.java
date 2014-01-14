@@ -611,7 +611,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
     if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
 
       // We can read and write the media
-      //    	if (Integer.valueOf(android.os.Build.VERSION.SDK_INT) > 7) {
+      //      if (Integer.valueOf(android.os.Build.VERSION.SDK_INT) > 7) {
       // For Android 2.2 and above
       
       try {
@@ -631,14 +631,14 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
       //        }
     
     } else if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
-    	// We can only read the media
-    	Log.e(TAG, "External storage is read-only");
+      // We can only read the media
+      Log.e(TAG, "External storage is read-only");
       showErrorMessage("Error", "Required external storage (such as an SD card) is unavailable for data storage.");
     } else {
-    	// Something else is wrong. It may be one of many other states, but all we need
+      // Something else is wrong. It may be one of many other states, but all we need
       // to know is we can neither read nor write
-    	Log.e(TAG, "External storage is unavailable");
-    	showErrorMessage("Error", "Required external storage (such as an SD card) is unavailable or corrupted.");
+      Log.e(TAG, "External storage is unavailable");
+      showErrorMessage("Error", "Required external storage (such as an SD card) is unavailable or corrupted.");
     }
     return null;
   }
@@ -735,7 +735,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
 
  // Create intent to deliver some kind of result data
     Intent data = new Intent();
-    data.putExtra("result", ocrResult.getText());
+    data.putExtra("edu.sfsu.cs.orange.orc.result", ocrResult.getText());
     setResult(Activity.RESULT_OK, data);
     finish();
     
@@ -913,11 +913,11 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
       }
       return true;
     case OPTIONS_SHARE_RECOGNIZED_TEXT_ID:
-    	Intent shareRecognizedTextIntent = new Intent(android.content.Intent.ACTION_SEND);
-    	shareRecognizedTextIntent.setType("text/plain");
-    	shareRecognizedTextIntent.putExtra(android.content.Intent.EXTRA_TEXT, ocrResultView.getText());
-    	startActivity(Intent.createChooser(shareRecognizedTextIntent, "Share via"));
-    	return true;
+      Intent shareRecognizedTextIntent = new Intent(android.content.Intent.ACTION_SEND);
+      shareRecognizedTextIntent.setType("text/plain");
+      shareRecognizedTextIntent.putExtra(android.content.Intent.EXTRA_TEXT, ocrResultView.getText());
+      startActivity(Intent.createChooser(shareRecognizedTextIntent, "Share via"));
+      return true;
     case OPTIONS_COPY_TRANSLATED_TEXT_ID:
         clipboardManager.setText(translationView.getText());
       if (clipboardManager.hasText()) {
@@ -927,11 +927,11 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
       }
       return true;
     case OPTIONS_SHARE_TRANSLATED_TEXT_ID:
-    	Intent shareTranslatedTextIntent = new Intent(android.content.Intent.ACTION_SEND);
-    	shareTranslatedTextIntent.setType("text/plain");
-    	shareTranslatedTextIntent.putExtra(android.content.Intent.EXTRA_TEXT, translationView.getText());
-    	startActivity(Intent.createChooser(shareTranslatedTextIntent, "Share via"));
-    	return true;
+      Intent shareTranslatedTextIntent = new Intent(android.content.Intent.ACTION_SEND);
+      shareTranslatedTextIntent.setType("text/plain");
+      shareTranslatedTextIntent.putExtra(android.content.Intent.EXTRA_TEXT, translationView.getText());
+      startActivity(Intent.createChooser(shareTranslatedTextIntent, "Share via"));
+      return true;
     default:
       return super.onContextItemSelected(item);
     }
@@ -1225,11 +1225,11 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
    * @param message The error message to be displayed
    */
   void showErrorMessage(String title, String message) {
-	  new AlertDialog.Builder(this)
-	    .setTitle(title)
-	    .setMessage(message)
-	    .setOnCancelListener(new FinishListener(this))
-	    .setPositiveButton( "Done", new FinishListener(this))
-	    .show();
+    new AlertDialog.Builder(this)
+      .setTitle(title)
+      .setMessage(message)
+      .setOnCancelListener(new FinishListener(this))
+      .setPositiveButton( "Done", new FinishListener(this))
+      .show();
   }
 }
