@@ -93,6 +93,8 @@
         <source-file src="src/android/jtar-1.0.4.jar" target-dir="libs"/>
         <source-file src="src/android/microsoft-translator-java-api-0.6-mod.jar" target-dir="libs"/>
 
+        <source-file src="src/android/LibraryProject/res/layout/capture_image.xml" target-dir="res/layout"/>
+
         <!-- plugman cannot merge - prepare manual merge -->
         <config-file target="res/values/arrays.xml" parent="/resources">
             <string-array name="capturemodes">
