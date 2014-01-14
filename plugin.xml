@@ -97,10 +97,10 @@
         <source-file src="src/android/LibraryProject/res/drawable-hdpi/background_pressed.png" target-dir="res/drawable-hdpi"/>
         <source-file src="src/android/LibraryProject/res/drawable-hdpi/shutter.png" target-dir="res/drawable-hdpi"/>
         <source-file src="src/android/LibraryProject/res/drawable-hdpi/shutter_pressed.png" target-dir="res/drawable-hdpi"/>
-        <source-file src="src/android/LibraryProject/res/drawable-mdpi/background.png" target-dir="res/drawable-hdpi"/>
-        <source-file src="src/android/LibraryProject/res/drawable-mdpi/background_pressed.png" target-dir="res/drawable-hdpi"/>
-        <source-file src="src/android/LibraryProject/res/drawable-mdpi/shutter.png" target-dir="res/drawable-hdpi"/>
-        <source-file src="src/android/LibraryProject/res/drawable-mdpi/shutter_pressed.png" target-dir="res/drawable-hdpi"/>
+        <source-file src="src/android/LibraryProject/res/drawable-mdpi/background.png" target-dir="res/drawable-mdpi"/>
+        <source-file src="src/android/LibraryProject/res/drawable-mdpi/background_pressed.png" target-dir="res/drawable-mdpi"/>
+        <source-file src="src/android/LibraryProject/res/drawable-mdpi/shutter.png" target-dir="res/drawable-mdpi"/>
+        <source-file src="src/android/LibraryProject/res/drawable-mdpi/shutter_pressed.png" target-dir="res/drawable-mdpi"/>
         <source-file src="src/android/LibraryProject/res/layout/capture_image.xml" target-dir="res/layout"/>
 
         <!-- plugman cannot merge - prepare manual merge -->
